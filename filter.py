@@ -7,8 +7,8 @@ from scipy.spatial import cKDTree
 # CONFIGURATION
 # ============================================================
 
-INPUT_PLY = r"C:\Users\leona\Downloads\output\kaggle\working\output\43059ab5-8\point_cloud\iteration_30000\point_cloud.ply"
-OUTPUT_PLY = r"C:\Users\leona\Downloads\output\kaggle\working\output\43059ab5-8\point_cloud\iteration_30000\cube_filtered_output.ply"
+INPUT_PLY = r"C:\...\iteration_30000\point_cloud.ply"          #add path to pointcloud 
+OUTPUT_PLY = r"C:\...\iteration_30000\cube_filtered_output.ply" 
 
 MAX_DISTANCE = 10.0
 
