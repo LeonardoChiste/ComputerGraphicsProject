@@ -133,10 +133,10 @@ def filter_mesh_by_density(mesh: o3d.geometry.TriangleMesh, densities: np.ndarra
 def main() -> None:
     parser = argparse.ArgumentParser(description="Poisson reconstruction from filtered Gaussian splatting PLY")
     parser.add_argument("--input", type=str,
-                        default="C:\\Users\\leona\\Desktop\\graphics\\outputZip\\kaggle\\working\\output\\point_cloud\\iteration_30000\\point_cloud.ply",
+                        default="C:\\...\\iteration_30000\\point_cloud.ply",
                         help="Input Gaussian splatting PLY file")
     parser.add_argument("--output-dir", type=str,
-                        default="C:\\Users\\leona\\Desktop\\graphics\\mesh_output",
+                        default="C:\\...\\mesh_output",
                         help="Output directory for point cloud and reconstructed mesh")
     parser.add_argument("--opacity-threshold", type=float, default=0.1,
                         help="Opacity threshold for filtering gaussians")
